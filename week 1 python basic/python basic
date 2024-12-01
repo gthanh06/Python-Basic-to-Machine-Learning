@@ -1,1 +1,36 @@
-
+*Cau 1
+nhap ten nguoi dung
+ten_nguoi_dung= Input(Nhap ten cua ban)
+in ten nguoi dung
+Print("xin chao,",ten_nguoi_dung)
+*Cau 2
+Nhap so thu 1
+so1 = float(input("Nhập số thứ nhất: "))
+Nhap so thu 2
+so2 = float(input("Nhập số thứ hai: "))
+Tinh tong
+tong = so1 + so2
+Ket qua
+print("Tổng của hai số là:", tong)
+*Cau 3
+    chieu dai va chieu rong
+chieu_dai = float(input("Nhap chieu dai: "))
+chieu_rong = float(input("Nhap chieu rong: "))
+    chu vi
+chu_vi = 2 * (chieu_dai + chieu_rong)
+    Ket qua
+print("Chu vi cua hinh chu nha la:", chu_vi)
+*Cau 4
+    nhap chieu dai va chieu cao 
+dai = float(input("nhap chieu dai: "))
+chieu_cao = float(input("nhap chieu cao: "))
+    Dien tich
+dien_tich = 0.5 * day * chieu_cao
+    Ket qua
+print("Ket qua la:", dien_tich)
+*Cau 5
+   2 mu 5
+ket_qua = 2 ** 5
+   Ket qua
+print("Ket qua la:", ket_qua)
+*Cau 6
