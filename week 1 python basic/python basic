@@ -34,3 +34,61 @@ ket_qua = 2 ** 5
    Ket qua
 print("Ket qua la:", ket_qua)
 *Cau 6
+# Nhập một số nguyên
+so = int(input("Nhập một số nguyên: "))
+
+# Kiểm tra chẵn lẻ
+if so % 2 == 0:
+    print(f"{so} là số chẵn.")
+else:
+    print(f"{so} là số lẻ.")
+*Cau7
+# Nhập điểm trung bình của học sinh
+diem = float(input("Nhập điểm trung bình: "))
+
+# Xếp loại
+if diem >= 8.5:
+    print("Học sinh xếp loại: Giỏi")
+elif 6.5 <= diem < 8.5:
+    print("Học sinh xếp loại: Khá")
+elif 5.0 <= diem < 6.5:
+    print("Học sinh xếp loại: Trung bình")
+else:
+    print("Học sinh xếp loại: Yếu")
+*Cau 8
+# Nhập hệ số a, b, c
+a = float(input("Nhập hệ số a: "))
+b = float(input("Nhập hệ số b: "))
+c = float(input("Nhập hệ số c: "))
+
+# Tính delta
+delta = b**2 - 4*a*c
+
+# Kiểm tra nghiệm
+if delta < 0:
+    print("Phương trình vô nghiệm.")
+elif delta == 0:
+    x = -b / (2*a)
+    print(f"Phương trình có nghiệm kép: x = {x}")
+else:
+    x1 = (-b + math.sqrt(delta)) / (2*a)
+    x2 = (-b - math.sqrt(delta)) / (2*a)
+    print(f"Phương trình có hai nghiệm phân biệt: x1 = {x1}, x2 = {x2}")
+*Cau 9
+# Nhập nhiệt độ ở độ C
+do_C = float(input("Nhập nhiệt độ (°C): "))
+
+# Chuyển đổi sang độ F
+do_F = do_C * 9/5 + 32
+
+# In kết quả
+print(f"Nhiệt độ tương ứng ở độ F là: {do_F}°F")
+* Cau 10
+# Chuỗi cần kiểm tra
+chuoi = "VanLang"
+
+# Kiểm tra ký tự "V" có trong chuỗi không
+if "V" in chuoi:
+    print("True")
+else:
+    print("False")
